@@ -52,3 +52,7 @@ end
 def find_a(array)
   array.select {|element| element[0]=="a"}
 end
+
+def sum_array(num_array)
+  num_array.inject(0) {|sum,num| sum+num}
+end
