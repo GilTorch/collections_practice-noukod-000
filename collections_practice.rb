@@ -64,4 +64,3 @@ def add_s(array)
      word_array.join("")
   end
 end
-
