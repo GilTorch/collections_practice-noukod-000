@@ -64,8 +64,7 @@ def add_s(array)
     if count !=1
      word_array.push("s")
    end
-   word_array.join("")
     count +=1
-    word_array
+ word_array.join("")
   end
 end
