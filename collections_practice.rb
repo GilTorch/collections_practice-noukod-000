@@ -8,7 +8,7 @@ def sort_array_dsc(number_array)
       return 0
     elsif a > b
       return -1
-    else
+    elsif a < b
       return 1
     end
   end
