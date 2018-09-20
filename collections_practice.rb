@@ -58,9 +58,13 @@ def sum_array(num_array)
 end
 
 def add_s(array)
+  count = 0
   array.collect do |word|
+    if count !=2
      word_array=word.split("")
      word_array.push("s")
      word_array.join("")
+   end
+    count +=1
   end
 end
