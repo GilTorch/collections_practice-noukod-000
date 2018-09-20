@@ -52,4 +52,3 @@ end
 def find_a(array)
   array.select {|element| element[0]=="a"}
 end
-
