@@ -25,3 +25,15 @@ def sort_array_char_count(word_array)
     end
   end
 end
+
+def swap_elements(array)
+  array.size.times do |index|
+    if index==1
+      temp = array[index]
+      array[index]=array[index+1]
+      array[index+1]=temp
+    end
+  end
+  array
+end
+
