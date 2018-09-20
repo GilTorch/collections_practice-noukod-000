@@ -48,3 +48,7 @@ def kesha_maker(array)
      word_array.join("")
   end
 end
+
+def find_a(array)
+  array.find {|element| element[0]=="a"}
+end
