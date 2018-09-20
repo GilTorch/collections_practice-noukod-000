@@ -13,3 +13,15 @@ def sort_array_desc(number_array)
     end
   end
 end
+
+def sort_array_char_count(word_array)
+  word_array.sort do |word1,word2|
+    if word1.length == word2.length
+      0
+    elsif word1.length > word2.length
+      1
+    elsif word1.length < word2.length
+      -1
+    end
+  end
+end
