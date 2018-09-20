@@ -60,7 +60,7 @@ end
 def add_s(array)
   count = 0
   array.collect do |word|
-    if count !=2
+    if count !=1
      word_array=word.split("")
      word_array.push("s")
      word_array.join("")
