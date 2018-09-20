@@ -56,3 +56,12 @@ end
 def sum_array(num_array)
   num_array.inject(0) {|sum,num| sum+num}
 end
+
+def add_s(array)
+  array.collect do |word|
+     word_array=word.split("")
+     word_array.push("s")
+     word_array.join("")
+  end
+end
+
